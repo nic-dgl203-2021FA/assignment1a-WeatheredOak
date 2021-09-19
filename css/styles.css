@@ -22,17 +22,21 @@ img {
 ------------------------------------*/
 header {
     background: #2F3061;
-    color: #F7FFF7; 
+    
 }
 
 
 /* Projects
 ------------------------------------*/
-
+.projects {
+    background: #F7FFF7;
+}
 
 /* Work Experience
 ------------------------------------*/
-
+.work-experience {
+    background: #A1C6D7;
+}
 
 
 /* Education
