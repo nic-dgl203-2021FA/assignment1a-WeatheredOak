@@ -55,7 +55,16 @@
 
         <!-- Project 1 -->
         <section class="project-item">
-          <img src="images/GuitarNerdsCover.jpg" alt="Magazine Cover">
+          <img src="images/GuitarNerdsCover.jpg" alt="Magazine Cover" style="width:30%;cursor:zoom-in"
+            onclick="document.getElementById('modal01').style.display='block'">
+
+          <div id="modal01" class="w3-modal" onclick="this.style.display='none'">
+            <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+            <div class="w3-modal-content w3-animate-zoom">
+              <img src="images/GuitarNerdsCover.jpg" style="width:100%">
+              <!--Code adapted from W3 Schools website. Modified with image names/id -->
+            </div>
+          </div>
           <!--This is where I will showcase magazine cover from last year. Modal image will work here.-->
           <h3>Guitar Nerds Magazine Cover</h3>
           <p>For my DGL 112 Typography course, a major project was designing a magazine cover plus the first few pages.
@@ -101,7 +110,16 @@
 
         <!-- Project 4 -->
         <section class="project-item">
-          <img src="images/Beach Masse3_WL.jpg" alt="Angry Seagull Beach Cleanup Poster">
+          <img src="images/Beach Masse3_WL.jpg" alt="Angry Seagull Beach Cleanup Poster"
+            style="width:30%;cursor:zoom-in" onclick="document.getElementById('modal01').style.display='block'">
+
+          <div id="modal01" class="w3-modal" onclick="this.style.display='none'">
+            <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+            <div class="w3-modal-content w3-animate-zoom">
+              <img src="images/Beach Masse3_WL.jpg" style="width:100%">
+              <!--Code adapted from W3 Schools website. Modified with image names/id -->
+            </div>
+          </div>
           <h3>Social Good Call to Action Poster</h3>
           <p>A notable project from my DGL 102 course was a Social Good Call to Action poster. Using design principles
             we learned
