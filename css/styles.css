@@ -101,15 +101,15 @@ h3 {
 ------------------------------------*/
 
 header {
-    background: #2F3061;
-    color: #F7FFF7;
+    background: #3A5A40;
+    color: #DAD7CD;
 }
 
 /* Projects
 ------------------------------------*/
 
 .projects {
-    background: #F7FFF7;
+    background: #DAD7CD;
 }
 
 .projects a {
@@ -117,8 +117,8 @@ header {
 }
 
 .projects .btn {
-    color: #F7FFF7;
-    background: #2F3061;
+    color: #DAD7CD;
+    background: #588157;
     text-decoration: none;
     padding: 8px;
     border-radius: 4px;
@@ -141,14 +141,14 @@ header {
 ------------------------------------*/
 
 .work-experience {
-    background: #A1C6D7;
+    background: #A3B18A;
 }
 
 /* Education
 ------------------------------------*/
 
 .education {
-    background-image: url(../placeholder\ images/sharon-mccutcheon-unsplash.jpg);
+    background-image: url(../placeholder\ images/sharon-mccutcheon-unsplash.jpg); /* For this section I kept one of the stock images from the tutorial */
     background-size: cover;
     background-position: top right;
     padding-bottom: 100px;
@@ -162,8 +162,8 @@ header {
 ------------------------------------*/
 
 footer {
-    background: #343434;
-    color: #F7FFF7;
+    background: #344E41;
+    color: #DAD7CD;
 }
 
 .contact-list {
