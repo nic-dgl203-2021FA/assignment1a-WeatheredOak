@@ -39,7 +39,7 @@ body {
     color: #343434;
     margin: 0;
     padding: 0;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 15px;
     line-height: 1.5;
 }
@@ -66,7 +66,7 @@ h2 {
 }
 
 h1, h2 {
-    font-family: 'Caveat', cursive;
+    font-family: 'IM Fell English SC', serif;
     font-weight: 400;
     margin: 0;
 }
