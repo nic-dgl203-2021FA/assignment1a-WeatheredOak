@@ -2,7 +2,7 @@
 NIC DGL-203
 Assignment 1c
 Author: Will Lewthwaite
-Date: 3 October 2021 - Customization
+Date Last Modified: 4 October 2021 - Customization
 */
 
 /*
@@ -108,7 +108,7 @@ header {
     color: #DAD7CD;
 }
 
-/* -Code from W3 Schools Website HTML/CSS basic Drop Menu.
+/* -Drop Down Navigation Code from W3 Schools Website HTML/CSS basic Drop Menu.
 Modified class id names, added 4th list item, modified colors- */
 
 .dropbtn {
@@ -117,7 +117,7 @@ Modified class id names, added 4th list item, modified colors- */
     padding: 16px;
     font-size: 16px;
     border: none;
-    }
+}
 
 .dropdown {
     position: relative;
@@ -197,7 +197,8 @@ Modified class id names, added 4th list item, modified colors- */
 
 .education {
     background-image: url(../placeholder\ images/sharon-mccutcheon-unsplash.jpg);
-    /* For this section I kept one of the stock images from the tutorial */
+    /* For this section I kept one of the stock images from the tutorial
+    because I liked the books and they went well with the color theme */
     background-size: cover;
     background-position: top right;
     padding-bottom: 100px;
@@ -247,7 +248,7 @@ footer {
     }
     .education {
         display: flex;
-        }
+    }
 }
 
 @media screen and (max-width:749px) {
@@ -263,6 +264,7 @@ footer {
         padding: 5px;
     }
     .education {
+        /*-- This addresses the issue of text readability at smaller screen sizes by clearing the background image --*/
         background-image: none;
     }
 }
