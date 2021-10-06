@@ -116,12 +116,12 @@ Modified class id names, added 4th list item, modified colors- */
     padding: 16px;
     font-size: 16px;
     border: none;
-    float: left;
     }
 
 .dropdown {
     position: relative;
-    display: inline-block;
+    /*display: inline-block;*/
+    float: left;
 }
 
 .dropdown-list {
@@ -244,6 +244,9 @@ footer {
         display: flex;
         justify-content: center;
     }
+    .education {
+        display: flex;
+        }
 }
 
 @media screen and (max-width:749px) {
@@ -257,5 +260,8 @@ footer {
     }
     .contact-list a {
         padding: 5px;
+    }
+    .education {
+        background-image: none;
     }
 }
